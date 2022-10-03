@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+s<!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Cart</title>
 
     <meta charset="utf-8">
-    <meta name="description" content="Amazing e-commerce website">
+    <meta name="description" content="Plateforme incroyable de e-commerce">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -39,7 +39,7 @@
           </nav>
         </div>
       </div>
-      <img class="banner" src="../images/banner.png" alt="Banner">
+      <img class="banniere" src="../images/banniere.png" alt="Banner">
     </header>
     
     <main class="limitedWidthBlockContainer">
@@ -48,37 +48,18 @@
           <h1>Your cart</h1>
           <section class="cart">
             <section id="cart__items">
-             <!--  <article class="cart__item" data-id="{product-ID}" data-color="{product-color}">
-                <div class="cart__item__img">
-                  <img src="../images/product01.jpg" alt="Photo of a sofa">
-                </div>
-                <div class="cart__item__content">
-                  <div class="cart__item__content__description">
-                    <h2>Name of the product</h2>
-                    <p>Green</p>
-                    <p>€42.00</p>
-                  </div>
-                  <div class="cart__item__content__settings">
-                    <div class="cart__item__content__settings__quantity">
-                      <p>Quantity : </p>
-                      <input type="number" class="itemQuantity" name="itemQuantity" min="1" max="100" value="42">
-                    </div>
-                    <div class="cart__item__content__settings__delete">
-                      <p class="deleteItem">Delete</p>
-                    </div>
-                  </div>
-                </div>
-              </article> -->
+             
+              
             </section>
             <div class="cart__price">
               <p>Total (<span id="totalQuantity"><!-- 2 --></span> articles) : €<span id="totalPrice"><!-- 84.00 --></span></p>
             </div>
             <div class="cart__order">
-              <form method="get" class="cart__order__form">
+              <form method="get" class="cart__order__form" onsubmit="event.preventDefault() "; id="pos-order">
                 <div class="cart__order__form__question">
                   <label for="firstName">First name: </label>
                   <input type="text" name="firstName" id="firstName" required>
-                  <p id="firstNameErrorMsg"><!-- this is an error message --></p>
+                  <p id="firstNameErrorMsg"><!-- ci est un message d'erreur --></p>
                 </div>
                 <div class="cart__order__form__question">
                   <label for="lastName">Name: </label>
@@ -114,7 +95,7 @@
       <div class="limitedWidthBlockContainer footerMain">
         <div class="limitedWidthBlock">
           <div>
-            <img class="logo" src="../images/logo.png" alt="Kanap company logo">
+            <img class="logo" src="../images/logo.png" alt="Logo de l'entreprise">
           </div>
           <div>
             <p>10 quai de la charente <br>75019 Paris 19</p>
