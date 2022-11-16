@@ -1,5 +1,7 @@
 https://sltheng004.github.io/P5_SamanthaTheng/
 
+This project was created to use Javascript in building an e-commerce website. 
+
 # Kanap #
 
 This is the front end and back end server for Project 5 of the Web Developer path.
